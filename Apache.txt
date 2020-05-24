@@ -29,3 +29,7 @@ Guarda el archivo . zip con el paquete de software en una carpeta de tu ordenado
 Descomprime el archivo haciendo doble clic sobre el icono de la carpeta.
 
 Copia la carpeta Apache24 en C:\.
+
+En este link encontraremos un curso para crear un servidor web apache 2.4
+https://www.youtube.com/watch?v=rQBFXt-KEMk
+
