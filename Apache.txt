@@ -1,0 +1,16 @@
+
+
+ SERVIDOR_APACHE
+
+Apache HTTP Server es un software de servidor web gratuito y de código abierto para plataformas Unix con el cual se ejecutan el 46% de los
+sitios web de todo el mundo. Es mantenido y desarrollado por la Apache Software Foundation.
+
+Le permite a los propietarios de sitios web servir contenido en la web, de ahí el nombre de «servidor web». Es uno de los servidores web más 
+antiguos y confiables, con la primera versión lanzada hace más de 20 años, en 1995.
+
+Cuando alguien quiere visitar un sitio web, ingresa un nombre de dominio en la barra de direcciones de su navegador. Luego, el servidor web 
+envía los archivos solicitados actuando como un repartidor virtual.
+
+Aquí en Hostinger, nuestra infraestructura de hosting web utiliza Apache en paralelo con NGINX, que es otro software popular de servidor web. 
+Esta configuración particular nos permite obtener lo mejor de ambos mundos. Esto mejora en gran medida el rendimiento del servidor al compensar 
+los lados más débiles de un software con las fortalezas del otro.
