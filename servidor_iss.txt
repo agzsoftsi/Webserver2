@@ -1,0 +1,35 @@
+ Servidor IIS
+¿Qué es?
+Internet Information Services o IIS es un servidor web y un conjunto de servicios para el sistema operativo Microsoft Windows. Originalmente era parte del Option Pack para Windows NT. Luego fueintegrado en otros sistemas operativos de Microsoft destinados a ofrecer servicios, como Windows 2000o Windows Server 2003. Windows XP Profesional incluye una versión limitada de IIS. Los servicios queofrece son: FTP, SMTP, NNTP y HTTP/HTTPS.
+
+Este servicio convierte a una PC en un servidor web para Internet o una intranet, es decir que en las computadoras que tienen este servicio instalado se pueden publicar páginas web tanto local como remotamente.
+
+Los servicios de Internet Information Services proporcionan las herramientas y funciones necesarias para administrar de 
+forma sencilla un servidor web seguro. ¿Cómo se instala?
+
+En este tema se describen tres métodos para instalar IIS:
+• Mediante el Asistente para configurar su servidor
+• Mediante Agregar o quitar programas en el Panel de control.
+• Mediante la instalación desatendida.
+  En este tema también se enumeran los directorios creados durante la instalación, se describe la copia deseguridad de la 
+  configuración inicial de IIS y se describen brevemente los componentes opcionales deIIS.
+
+Utilizar el Asistente para configurar su servidor para instalar IIS1.
+
+1.En el menú Inicio, haga clic en Administre su servidor. 
+2. En Administrar las funciones de suservidor, haga clic en Agregar o quitar función.
+3. Lea los pasos preliminares indicados en elAsistente para configurar su servidor y haga clic en Siguiente. 
+4. En Función del servidor, hagaclic en Servidor de aplicaciones (IIS, ASP.NET) y, a continuación, en Siguiente.
+   De manera predeterminada, el asistente instala y habilita IIS, COM+ y DTC.
+5. Si desea utilizar cualquiera de las tecnologías opcionales (Extensiones de servidor de FrontPage o ASP.NET), en la página Opciones del Servidor de aplicaciones, seleccione las casillas de verificación correspondientes y,a continuación, haga clic en Siguiente. 
+6. Lea el resumen y haga clic en Siguiente.
+7. Complete elasistente y haga clic en Finalizar.
+
+Características
+• Características de confiabilidad: describe nuevos modos de utilización y los procesos del Servicio depublicación World Wide Web Publishing (servicio WWW).
+• Security Features_IIS_SP1_Ops: describe nuevas características diseñadas para proteger los sitiosWeb, los datos y el servidor IIS.
+• Características de rendimiento: describe las características de rendimiento y de escalabilidad.
+• Tecnologías de aplicaciones Web: Describe la implementación de IIS 6.0 de Microsoft® ASP.NET, ASPy el proveedor ADSI.
+• Herramientas administrativas y características: describe los cambios en la metabase y las nuevasherramientas administrativas.
+• Estándares de Internet: describe la compatibilidad con los protocolos estándar Web y de Internet.• Características de Protocolo Internet versión 6: Describe las funciones de IIS 6.0 compatibles con elProtocolo Internet versión 6 (IPv6).
+
