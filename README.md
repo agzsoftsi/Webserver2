@@ -1,3 +1,7 @@
 # Webserver2
 Repositorio de Desarrollo y pruebas
-Diego Fernando
+
+
+## Autores
+- Diego Fernando
+- Carlos garcia
