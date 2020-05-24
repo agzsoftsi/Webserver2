@@ -6,4 +6,7 @@ Repositorio de Desarrollo y pruebas
 - Diego Fernando
 - Carlos garcia
 - Dydier vargas
-Wilson Mosquera
+- Andrés Torres
+
+
+
