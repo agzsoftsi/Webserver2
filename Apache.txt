@@ -23,3 +23,9 @@ Entre los objetivos de la ASF se encuentran el de proporcionar protección legal
 El siguiente Link indica como Instalar y configurar el servidor
 https://norfipc.com/internet/instalar-servidor-apache.html
 
+Instalar Apache
+Guarda el archivo . zip con el paquete de software en una carpeta de tu ordenador local.
+
+Descomprime el archivo haciendo doble clic sobre el icono de la carpeta.
+
+Copia la carpeta Apache24 en C:\.
