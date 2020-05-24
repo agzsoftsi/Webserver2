@@ -17,3 +17,9 @@ los lados más débiles de un software con las fortalezas del otro.
 Arquitectura de Servidor
 
 https://www.adictosaltrabajo.com/wp-content/uploads/tutorial-data/tuning/arquitectura.jpeg
+
+Apache Software  es una comunidad descentralizada de desarrolladores que trabajan cada uno en sus propios proyectos de código abierto. Los proyectos Apache se caracterizan por un modelo de desarrollo basado en el consenso y la colaboración y en una licencia de software abierta y pragmática. Cada proyecto es gestionado por un grupo autoseleccionado de expertos técnicos que son participantes activos en dicho proyecto. La ASF es una meritocracia, de lo que se deriva que la pertenencia a la fundación se permite sólo a voluntarios que hayan contribuido significativamente a proyectos Apache.
+Entre los objetivos de la ASF se encuentran el de proporcionar protección legal a los voluntarios que trabajan en proyectos Apache, y al propio nombre Apache de ser empleado por otras organizaciones. 
+El siguiente Link indica como Instalar y configurar el servidor
+https://norfipc.com/internet/instalar-servidor-apache.html
+
