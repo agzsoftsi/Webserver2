@@ -2,3 +2,42 @@ Dydier - Servidor_Apache
 Diego - Servidor_IIS
 Andres - Servidor_AWS
 wilson - Servidor:Azure
+
+
+Actividad Web
+----------------------------------------------------------------------------------------------------------------
+Dydier: 
+- Crear Archivo Pagina1.html
+- Crear la estructura Basica html en el documento
+- Editar el titulo de paginas web : "Web Server 2"
+
+
+Diego:
+- Agregar un Header 1:"Web Server Application"
+- Agregar Texto en parrafo: Que es un Servidor web?
+- Agregar Imagen: Arquitectura de un servidor Web
+
+Andres: 
+- Agregar Que es Hosting?
+- Agregar Que es un Dominio?
+- Crear Un enlace aun Video donde expliquen con mejor detalle sobre le tema
+
+Wilson:
+- Agregar que Firewall?
+- Imagne de Arquitectura web con firewalls
+- Agregar que es SSL?
+ 
+
+Todos:
+- Agregar un pie de Pagina
+Nombres, fecha, ciudad, tema
+
+
+
+
+
+
+
+
+
+
