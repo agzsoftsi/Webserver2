@@ -7,6 +7,7 @@ Repositorio de Desarrollo y pruebas
 - Carlos garcia
 - Dydier vargas
 - Andrés Torres
+- Wilson Mosquera
 
 
 
