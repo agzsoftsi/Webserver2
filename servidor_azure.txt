@@ -1,22 +1,31 @@
-Microsoft Azure (anteriormente Windows Azure y Azure Services Platform) es un servicio de computaciÛn en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Proporciona software como servicio (SaaS), plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) y es compatible con muchos lenguajes, herramientas y marcos de programaciÛn diferentes, incluidos software y sistemas especÌficos de Microsoft y de terceros.
+Microsoft Azure (anteriormente Windows Azure y Azure Services Platform) es un servicio de computaci√≥n en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Proporciona software como servicio (SaaS), plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) y es compatible con muchos lenguajes, herramientas y marcos de programaci√≥n diferentes, incluidos software y sistemas espec√≠ficos de Microsoft y de terceros.
 
-Azure fue anunciado en octubre de 2008, comenzÛ con el nombre en clave "Project Red Dog"1? y publicado el 1 de febrero de 2010 como "Windows Azure" antes de ser rebautizado como "Microsoft Azure" el 25 de marzo de 2014.2?3
-
-
-Windows Azure utiliza un sistema operativo especializado, llamado de la misma forma, para correr sus "capas" (en inglÈs ìfabric layerî) ó un cluster localizado en los servidores de datos de Microsoft que se encargan de manejar los recursos almacenados y procesamiento para proveer los recursos(o una parte de ellos) para las aplicaciones que se ejecutan sobre Windows Azure.
-
-Windows Azure se describe como una ìcapa en la nubeî (en inglÈs "cloud layer") funcionando sobre un n˙mero de sistemas que utilizan Windows Server, estos funcionan bajo la versiÛn 2008 de Windows Server y una versiÛn personalizada de Hyper-V, conocido como el Hipervisor de Windows Azure que provee la virtualizaciÛn de los servicios. La capa controladora de Windows Azure se encarga de escalar y de manejar la confiabilidad del sistema evitando asÌ que los servicios se detengan si alguno de los servidores de datos de Microsoft tiene problemas y a su vez maneja la informaciÛn de la aplicaciÛn web del usuario dando como ejemplo los recursos de la memoria o el balanceo del uso de esta.
+Azure fue anunciado en octubre de 2008, comenz√≥ con el nombre en clave "Project Red Dog"1? y publicado el 1 de febrero de 2010 como "Windows Azure" antes de ser rebautizado como "Microsoft Azure" el 25 de marzo de 2014.2?3
 
 
+Windows Azure utiliza un sistema operativo especializado, llamado de la misma forma, para correr sus "capas" (en ingl√©s ‚Äúfabric layer‚Äù) ‚Äî un cluster localizado en los servidores de datos de Microsoft que se encargan de manejar los recursos almacenados y procesamiento para proveer los recursos(o una parte de ellos) para las aplicaciones que se ejecutan sobre Windows Azure.
+
+Windows Azure se describe como una ‚Äúcapa en la nube‚Äù (en ingl√©s "cloud layer") funcionando sobre un n√∫mero de sistemas que utilizan Windows Server, estos funcionan bajo la versi√≥n 2008 de Windows Server y una versi√≥n personalizada de Hyper-V, conocido como el Hipervisor de Windows Azure que provee la virtualizaci√≥n de los servicios. La capa controladora de Windows Azure se encarga de escalar y de manejar la confiabilidad del sistema evitando as√≠ que los servicios se detengan si alguno de los servidores de datos de Microsoft tiene problemas y a su vez maneja la informaci√≥n de la aplicaci√≥n web del usuario dando como ejemplo los recursos de la memoria o el balanceo del uso de esta.
 
 
 
-Cree una infraestructura hÌbrida bajo su control
+
+
+Cree una infraestructura h√≠brida bajo su control
 Cree redes virtuales privadas para ampliar su entorno de TI local en la nube y proteger sus conexiones con opciones como una red VPN IPsec o Azure ExpressRoute.
 
-Establezca topologÌas de red sofisticadas
-Ejecute sus aplicaciones virtuales favoritas (como optimizadores de WAN, equilibradores de carga y firewalls de aplicaciones) y defina los flujos de tr·fico para diseÒar su propia red con un mayor grado de control
+Establezca topolog√≠as de red sofisticadas
+Ejecute sus aplicaciones virtuales favoritas (como optimizadores de WAN, equilibradores de carga y firewalls de aplicaciones) y defina los flujos de tr√°fico para dise√±ar su propia red con un mayor grado de control
 
 
 Traiga sus propias direcciones IP y servidores DNS
 Trate Azure como su propio centro de datos: use direcciones IP privadas y defina atributos como subredes y directivas de control de acceso.
+COMO FUNCIONA?
+¬øc√≥mo crea, inicia, detiene y elimina la nube millones de instancias de hardware virtualizado para millones de clientes a la vez?
+Cada servidor incluye un hipervisor para ejecutar m√∫ltiples m√°quinas virtuales.
+
+Un conmutador de redes proporciona conectividad a los servidores. Un servidor en cada bastidor ejecuta un software especial llamado Fabric Controller. A su vez, Cada Fabric Controller est√° conectado a otra pieza especial de software conocida como el orquestador.
+
+El orquestador es responsable de manejar todo lo que sucede en Azure, incluyendo responder a las peticiones de los usuarios. Asigna servicios, supervisa el mantenimiento del servidor y los servicios que se ejecutan en √©l, y recupera los servidores cuando se produce un error. Cada instancia del Fabric Controller se conecta a otro conjunto de servidores que ejecutan software de orquestaci√≥n en la nube, conocido normalmente como front-end. El front-end hospeda los servicios web, las API RESTful y las bases de datos internas de Azure utilizadas para todas las funciones que realiza la nube.
+
+Por ejemplo, el front-end hospeda los servicios que controlan las solicitudes de cliente para asignar recursos de Azure como redes virtuales, m√°quinas virtuales y servicios como Cosmos DB o Azure SQL. En un primer momento, el front-end valida el usuario y comprueba que est√© autorizado para asignar los recursos solicitados. Si es as√≠, el front-end consulta una base de datos para buscar un bastidor de servidor con una capacidad suficiente y, luego, indica al Fabric Controller del bastidor que asigne el recurso.
