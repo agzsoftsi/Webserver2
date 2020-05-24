@@ -1,35 +1,68 @@
  Servidor IIS
-øQuÈ es?
-Internet Information Services o IIS es un servidor web y un conjunto de servicios para el sistema operativo Microsoft Windows. Originalmente era parte del Option Pack para Windows NT. Luego fueintegrado en otros sistemas operativos de Microsoft destinados a ofrecer servicios, como Windows 2000o Windows Server 2003. Windows XP Profesional incluye una versiÛn limitada de IIS. Los servicios queofrece son: FTP, SMTP, NNTP y HTTP/HTTPS.
+¬øQu√© es?
+Internet Information Services o IIS es un servidor web y un conjunto de servicios para el sistema operativo Microsoft Windows. Originalmente era parte del Option Pack para Windows NT. Luego fueintegrado en otros sistemas operativos de Microsoft destinados a ofrecer servicios, como Windows 2000o Windows Server 2003. Windows XP Profesional incluye una versi√≥n limitada de IIS. Los servicios queofrece son: FTP, SMTP, NNTP y HTTP/HTTPS.
 
-Este servicio convierte a una PC en un servidor web para Internet o una intranet, es decir que en las computadoras que tienen este servicio instalado se pueden publicar p·ginas web tanto local como remotamente.
+Este servicio convierte a una PC en un servidor web para Internet o una intranet, es decir que en las computadoras que tienen este servicio instalado se pueden publicar p√°ginas web tanto local como remotamente.
 
 Los servicios de Internet Information Services proporcionan las herramientas y funciones necesarias para administrar de 
-forma sencilla un servidor web seguro. øCÛmo se instala?
+forma sencilla un servidor web seguro. ¬øC√≥mo se instala?
 
-En este tema se describen tres mÈtodos para instalar IIS:
-ï Mediante el Asistente para configurar su servidor
-ï Mediante Agregar o quitar programas en el Panel de control.
-ï Mediante la instalaciÛn desatendida.
-  En este tema tambiÈn se enumeran los directorios creados durante la instalaciÛn, se describe la copia deseguridad de la 
-  configuraciÛn inicial de IIS y se describen brevemente los componentes opcionales deIIS.
+En este tema se describen tres m√©todos para instalar IIS:
+‚Ä¢ Mediante el Asistente para configurar su servidor
+‚Ä¢ Mediante Agregar o quitar programas en el Panel de control.
+‚Ä¢ Mediante la instalaci√≥n desatendida.
+  En este tema tambi√©n se enumeran los directorios creados durante la instalaci√≥n, se describe la copia deseguridad de la 
+  configuraci√≥n inicial de IIS y se describen brevemente los componentes opcionales deIIS.
 
 Utilizar el Asistente para configurar su servidor para instalar IIS1.
 
-1.En el men˙ Inicio, haga clic en Administre su servidor. 
-2. En Administrar las funciones de suservidor, haga clic en Agregar o quitar funciÛn.
+1.En el men√∫ Inicio, haga clic en Administre su servidor. 
+2. En Administrar las funciones de suservidor, haga clic en Agregar o quitar funci√≥n.
 3. Lea los pasos preliminares indicados en elAsistente para configurar su servidor y haga clic en Siguiente. 
-4. En FunciÛn del servidor, hagaclic en Servidor de aplicaciones (IIS, ASP.NET) y, a continuaciÛn, en Siguiente.
+4. En Funci√≥n del servidor, hagaclic en Servidor de aplicaciones (IIS, ASP.NET) y, a continuaci√≥n, en Siguiente.
    De manera predeterminada, el asistente instala y habilita IIS, COM+ y DTC.
-5. Si desea utilizar cualquiera de las tecnologÌas opcionales (Extensiones de servidor de FrontPage o ASP.NET), en la p·gina Opciones del Servidor de aplicaciones, seleccione las casillas de verificaciÛn correspondientes y,a continuaciÛn, haga clic en Siguiente. 
+5. Si desea utilizar cualquiera de las tecnolog√≠as opcionales (Extensiones de servidor de FrontPage o ASP.NET), en la p√°gina Opciones del Servidor de aplicaciones, seleccione las casillas de verificaci√≥n correspondientes y,a continuaci√≥n, haga clic en Siguiente. 
 6. Lea el resumen y haga clic en Siguiente.
 7. Complete elasistente y haga clic en Finalizar.
 
-CaracterÌsticas
-ï CaracterÌsticas de confiabilidad: describe nuevos modos de utilizaciÛn y los procesos del Servicio depublicaciÛn World Wide Web Publishing (servicio WWW).
-ï Security Features_IIS_SP1_Ops: describe nuevas caracterÌsticas diseÒadas para proteger los sitiosWeb, los datos y el servidor IIS.
-ï CaracterÌsticas de rendimiento: describe las caracterÌsticas de rendimiento y de escalabilidad.
-ï TecnologÌas de aplicaciones Web: Describe la implementaciÛn de IIS 6.0 de MicrosoftÆ ASP.NET, ASPy el proveedor ADSI.
-ï Herramientas administrativas y caracterÌsticas: describe los cambios en la metabase y las nuevasherramientas administrativas.
-ï Est·ndares de Internet: describe la compatibilidad con los protocolos est·ndar Web y de Internet.ï CaracterÌsticas de Protocolo Internet versiÛn 6: Describe las funciones de IIS 6.0 compatibles con elProtocolo Internet versiÛn 6 (IPv6).
+Caracter√≠sticas
+‚Ä¢ Caracter√≠sticas de confiabilidad: describe nuevos modos de utilizaci√≥n y los procesos del Servicio depublicaci√≥n World Wide Web Publishing (servicio WWW).
+‚Ä¢ Security Features_IIS_SP1_Ops: describe nuevas caracter√≠sticas dise√±adas para proteger los sitiosWeb, los datos y el servidor IIS.
+‚Ä¢ Caracter√≠sticas de rendimiento: describe las caracter√≠sticas de rendimiento y de escalabilidad.
+‚Ä¢ Tecnolog√≠as de aplicaciones Web: Describe la implementaci√≥n de IIS 6.0 de Microsoft¬Æ ASP.NET, ASPy el proveedor ADSI.
+‚Ä¢ Herramientas administrativas y caracter√≠sticas: describe los cambios en la metabase y las nuevasherramientas administrativas.
+‚Ä¢ Est√°ndares de Internet: describe la compatibilidad con los protocolos est√°ndar Web y de Internet.‚Ä¢ Caracter√≠sticas de Protocolo Internet versi√≥n 6: Describe las funciones de IIS 6.0 compatibles con elProtocolo Internet versi√≥n 6 (IPv6).
+
+Como administrar y configurar el servidor ISS
+
+El servidor posee un panel de administraci√≥n en el cual es posible configurar varios par√°metros del funcionamiento de la aplicaci√≥n.
+Dicho panel es posible abrirlo de varias formas.
+1- Crea un acceso directo en el Escritorio, en el cuadro "Ubicaci√≥n del elemento" introduce la ruta:
+C:\Windows\System32\inetsrv\InetMgr.exe
+2- En el Panel de control selecciona Herramientas administrativas, en ella "Administrador de Internet Information Services (IIS)".
+3- Escribe en el cuadro de Inicio o en la pantalla de inicio en Windows 8: inetmgr y presiona la tecla Enter.
+El panel de administraci√≥n de IIS es similar a la siguiente imagen:
+https://norfipc.com/img/articulos/panel-administracion-servidor-iis-windows.jpeg
+Panel de administraci√≥n del servidor Internet Information Services
+
+
+
+¬øC√≥mo acceder al servidor usando el navegador?
+
+Despu√©s de instalar el servidor solo introduce en cualquier navegador web que uses la siguiente direcci√≥n: localhost
+Tambi√©n puedes usar: 127.0.0.1, es la direcci√≥n IP local del equipo.
+Ver√°s la p√°gina predeterminada.
+P√°gina predeterminada del servidor Internet Information Services en Windows 8
+
+¬øC√≥mo agregar las p√°ginas y sitios web al servidor IIS?
+
+Existen dos formas para cargar las p√°ginas y los archivos web que tengamos en el equipo al servidor.
+1- Despu√©s de su instalaci√≥n, IIS crear√° una carpeta nombrada: "wwwroot", que es el directorio ra√≠z del servidor, se encuentra en la siguiente ruta: "C:\inetpub\wwwroot".
+Puedes copiar o mover a dicho directorio cualquier p√°gina o carpeta que contenga todos los archivos de un sitio.
+2. Mediante el Administrador de ISS es posible y es m√°s pr√°ctico agregarle sitios al servidor.
+Para eso especifica la ubicaci√≥n de las carpetas en el equipo que contienen los archivos, o sea que no es necesarios copiarlos a la carpeta wwwroot.
+Para eso abre el Administrador de ISS, selecciona la carpeta "Sitios" y en el Panel "Acciones" de la derecha, escoge "Agregar sitio web".
+En la ventana que se abre especifica el nombre de dominio del sitio, es decir la direcci√≥n URL sin el protocolo, por ejemplo:
+El nombre de dominio de: http://norfipc.com es: "norfipc.com"
+El nombre de dominio de: htpps://sitio.net/carpeta/local.html es: "sitio.net"
 
