@@ -89,3 +89,9 @@ versiones
 El siguiente Link Muestra Como Instalar y configurar el servidor
 https://norfipc.com/internet/instalar-usar-servidor-web-iis-windows.html
 
+
+Como instalar un servidor iis
+
+Abra Panel de control > Programas y Características > Activar o desactivar las características de Windows.
+Expanda la característica Internet Information Services.
+Verifique que los componentes de IIS que se enumeran a continuación estén activados.
